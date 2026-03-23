@@ -8,14 +8,13 @@ public class Medicamento {
 	private String nombre;
 	private int gramos;
 	private double precio;
-	List<Medicamento> m;
 	
-	
+
 	public Medicamento(String nombre, int gramos, double precio) {
 		this.nombre = nombre;
 		this.gramos = gramos;
 		this.precio = precio;
-		m = new ArrayList<>();
+		
 	}
 	
 	public String getNombre() {
@@ -26,11 +25,11 @@ public class Medicamento {
 		return gramos;
 	}
 
-	public void addMedicamento(Medicamento medicamento) {
-	m.add(medicamento);
+	@Override
+	public String toString() {
+		return "Medicamento [nombre=" + nombre + ", gramos=" + gramos + ", precio=" + precio + "]";
 	}
+
 	
-	boolean removeMedicamento(String nombreMedicamento) {
-		if 
 	}
-}
+
