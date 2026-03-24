@@ -1,4 +1,4 @@
-package ud6.veterinaria.v3;
+package Clinica;
 
 import java.time.LocalDate;
 import java.util.List;
